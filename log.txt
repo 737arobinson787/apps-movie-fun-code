@@ -1,0 +1,108 @@
+'mogs' is not a registered command. See 'cf help -a'
+
+Did you mean?
+      orgs
+      logs
+Retrieving logs for app [36;1mmoviefun[0m in org [36;1marobinson-Boulder-PAL[0m / space [36;1msandbox[0m as [36;1masim.robinson@cognizant.com[0m...
+
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:676)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1533)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1489)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+   2017-12-13T11:20:21.04-0800 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748)
+   2017-12-13T11:20:21.06-0800 [RTR/0] OUT moviefun-sweltering-image.apps.cumuluslabs.io - [2017-12-13T19:20:20.843+0000] "GET /setup.jsp HTTP/1.1" 500 0 4673 "-" "Java/1.8.0_112" "10.0.0.160:47136" "10.0.16.55:64520" x_forwarded_for:"172.58.56.0" x_forwarded_proto:"http" vcap_request_id:"ae92864d-4b99-43b5-5bf7-01b468401ad2" response_time:0.218701431 app_id:"2e238b40-d17b-4856-9db8-8015d1eaaf84" app_index:"0" x_b3_traceid:"711a246f204b5624" x_b3_spanid:"711a246f204b5624" x_b3_parentspanid:"-"
+   2017-12-13T11:20:21.06-0800 [RTR/0] OUT 
+   2017-12-13T11:22:14.31-0800 [API/0] OUT Updated app with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 ({"name"=>"moviefun", "buildpack"=>"https://github.com/cloudfoundry-community/tomee-buildpack.git"})
+   2017-12-13T11:22:27.32-0800 [API/0] OUT Updated app with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 ({"state"=>"STOPPED"})
+   2017-12-13T11:22:27.32-0800 [CELL/0] OUT Exit status 0
+   2017-12-13T11:22:27.32-0800 [APP/PROC/WEB/0] OUT [CONTAINER] org.apache.coyote.http11.Http11NioProtocol         INFO    Pausing ProtocolHandler ["http-nio-8080"]
+   2017-12-13T11:22:27.37-0800 [APP/PROC/WEB/0] OUT [CONTAINER] org.apache.catalina.core.StandardService           INFO    Stopping service Catalina
+   2017-12-13T11:22:27.43-0800 [APP/PROC/WEB/0] OUT [CONTAINER] org.apache.coyote.http11.Http11NioProtocol         INFO    Stopping ProtocolHandler ["http-nio-8080"]
+   2017-12-13T11:22:27.43-0800 [APP/PROC/WEB/0] OUT [CONTAINER] org.apache.coyote.http11.Http11NioProtocol         INFO    Destroying ProtocolHandler ["http-nio-8080"]
+   2017-12-13T11:22:27.44-0800 [APP/PROC/WEB/0] OUT Exit status 143
+   2017-12-13T11:22:27.45-0800 [CELL/0] OUT Destroying container
+   2017-12-13T11:22:27.79-0800 [CELL/0] OUT Successfully destroyed container
+   2017-12-13T11:22:32.17-0800 [API/0] OUT Updated app with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 ({"state"=>"STARTED"})
+   2017-12-13T11:22:32.19-0800 [STG/0] OUT Creating container
+   2017-12-13T11:22:32.53-0800 [STG/0] OUT Successfully created container
+   2017-12-13T11:22:32.53-0800 [STG/0] OUT Downloading app package...
+   2017-12-13T11:22:32.64-0800 [STG/0] OUT Downloaded app package (1M)
+   2017-12-13T11:22:32.64-0800 [STG/0] OUT Downloading build artifacts cache...
+   2017-12-13T11:22:32.70-0800 [STG/0] OUT Downloaded build artifacts cache (109B)
+   2017-12-13T11:22:32.70-0800 [STG/0] OUT Staging...
+   2017-12-13T11:22:38.94-0800 [STG/0] OUT [1m[31m----->[0m[22m [1m[34mJava Buildpack[0m[22m [34m4e997d8[0m | https://github.com/cloudfoundry-community/tomee-buildpack.git#4e997d8
+   2017-12-13T11:22:39.25-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mJvmkill Agent[0m[22m [34m1.12.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/jvmkill/trusty/x86_64/jvmkill-1.12.0_RELEASE.so [3m[32m(0.1s)[0m[23m
+   2017-12-13T11:22:40.75-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen Jdk JRE[0m[22m [34m1.8.0_152[0m from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_152.tar.gz [3m[32m(1.4s)[0m[23m
+   2017-12-13T11:22:41.84-0800 [STG/0] OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre [3m[32m(1.0s)[0m[23m
+   2017-12-13T11:22:41.89-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen JDK Like Memory Calculator[0m[22m [34m3.10.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-3.10.0_RELEASE.tar.gz [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:42.34-0800 [STG/0] OUT        Loaded Classes: 9976, Threads: 250
+   2017-12-13T11:22:42.37-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mClient Certificate Mapper[0m[22m [34m1.4.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-1.4.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:42.42-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mContainer Security Provider[0m[22m [34m1.11.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.11.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:43.76-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mTomee Instance[0m[22m [34m7.0.4[0m from https://java-buildpack.cloudfoundry.org/tomee/tomee-7.0.4.tar.gz [3m[32m(1.3s)[0m[23m
+   2017-12-13T11:22:44.20-0800 [STG/0] OUT        Expanding Tomee Instance to .java-buildpack/tomee [3m[32m(0.4s)[0m[23m
+   2017-12-13T11:22:44.28-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mTomee Resource Configuration[0m[22m [34m1.4.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/tomee-resource-configuration/tomee-resource-configuration-1.4.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:44.29-0800 [STG/0] OUT        Modifying /tmp/app/WEB-INF/resources.xml for Resource Configuration [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:44.31-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mTomcat Lifecycle Support[0m[22m [34m2.5.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/tomcat-lifecycle-support/tomcat-lifecycle-support-2.5.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:44.34-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mTomcat Logging Support[0m[22m [34m2.5.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/tomcat-logging-support/tomcat-logging-support-2.5.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:44.37-0800 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mTomcat Access Logging Support[0m[22m [34m2.5.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/tomcat-access-logging-support/tomcat-access-logging-support-2.5.0_RELEASE.jar [3m[32m(0.0s)[0m[23m
+   2017-12-13T11:22:58.76-0800 [STG/0] OUT Exit status 0
+   2017-12-13T11:22:58.76-0800 [STG/0] OUT Staging complete
+   2017-12-13T11:22:58.76-0800 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2017-12-13T11:22:58.76-0800 [STG/0] OUT Uploading build artifacts cache...
+   2017-12-13T11:22:58.76-0800 [STG/0] OUT Uploading droplet...
+   2017-12-13T11:23:01.09-0800 [STG/0] OUT Uploaded build artifacts cache (84.2M)
+   2017-12-13T11:23:09.90-0800 [STG/0] OUT Uploaded droplet (84.4M)
+   2017-12-13T11:23:09.91-0800 [STG/0] OUT Uploading complete
+   2017-12-13T11:23:09.94-0800 [STG/0] OUT Destroying container
+   2017-12-13T11:23:10.20-0800 [CELL/0] OUT Creating container
+   2017-12-13T11:23:10.57-0800 [CELL/0] OUT Successfully created container
+   2017-12-13T11:23:13.82-0800 [STG/0] OUT Successfully destroyed container
+   2017-12-13T11:23:16.04-0800 [CELL/0] OUT Starting health monitoring of container
+   [31m2017-12-13T11:23:16.13-0800 [APP/PROC/WEB/0] ERR Cannot calculate JVM memory configuration: There is insufficient memory remaining for heap. Memory limit 512M is less than allocated memory 627047K (-XX:ReservedCodeCacheSize=240M, -XX:MaxDirectMemorySize=10M, -XX:MaxMetaspaceSize=115047K, -Xss1M * 250 threads)[0m
+   2017-12-13T11:23:16.13-0800 [APP/PROC/WEB/0] OUT Exit status 1
+   2017-12-13T11:23:16.15-0800 [CELL/0] OUT Exit status 0
+   2017-12-13T11:23:16.18-0800 [CELL/0] OUT Destroying container
+   2017-12-13T11:23:16.19-0800 [API/0] OUT Process has crashed with type: "web"
+   2017-12-13T11:23:16.20-0800 [API/0] OUT App instance exited with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>1, "crash_timestamp"=>1513192996153231216, "version"=>"26c936e7-4d49-466d-afa6-1f09a5454709"}
+   2017-12-13T11:23:16.21-0800 [CELL/0] OUT Creating container
+   2017-12-13T11:23:16.56-0800 [CELL/0] OUT Successfully created container
+   2017-12-13T11:23:17.26-0800 [CELL/0] OUT Successfully destroyed container
+   2017-12-13T11:23:22.03-0800 [CELL/0] OUT Starting health monitoring of container
+   [31m2017-12-13T11:23:22.14-0800 [APP/PROC/WEB/0] ERR Cannot calculate JVM memory configuration: There is insufficient memory remaining for heap. Memory limit 512M is less than allocated memory 627047K (-XX:ReservedCodeCacheSize=240M, -XX:MaxDirectMemorySize=10M, -XX:MaxMetaspaceSize=115047K, -Xss1M * 250 threads)[0m
+   2017-12-13T11:23:22.14-0800 [APP/PROC/WEB/0] OUT Exit status 1
+   2017-12-13T11:23:22.16-0800 [CELL/0] OUT Exit status 0
+   2017-12-13T11:23:22.18-0800 [CELL/0] OUT Destroying container
+   2017-12-13T11:23:22.20-0800 [API/0] OUT Process has crashed with type: "web"
+   2017-12-13T11:23:22.20-0800 [API/0] OUT App instance exited with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>2, "crash_timestamp"=>1513193002154481029, "version"=>"26c936e7-4d49-466d-afa6-1f09a5454709"}
+   2017-12-13T11:23:22.21-0800 [CELL/0] OUT Creating container
+   2017-12-13T11:23:22.55-0800 [CELL/0] OUT Successfully created container
+   2017-12-13T11:23:23.18-0800 [CELL/0] OUT Successfully destroyed container
+   2017-12-13T11:23:28.37-0800 [CELL/0] OUT Starting health monitoring of container
+   [31m2017-12-13T11:23:28.48-0800 [APP/PROC/WEB/0] ERR Cannot calculate JVM memory configuration: There is insufficient memory remaining for heap. Memory limit 512M is less than allocated memory 627047K (-XX:ReservedCodeCacheSize=240M, -XX:MaxDirectMemorySize=10M, -XX:MaxMetaspaceSize=115047K, -Xss1M * 250 threads)[0m
+   2017-12-13T11:23:28.49-0800 [APP/PROC/WEB/0] OUT Exit status 1
+   2017-12-13T11:23:28.51-0800 [CELL/0] OUT Exit status 0
+   2017-12-13T11:23:28.52-0800 [CELL/0] OUT Destroying container
+   2017-12-13T11:23:28.53-0800 [API/0] OUT Process has crashed with type: "web"
+   2017-12-13T11:23:28.54-0800 [API/0] OUT App instance exited with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>3, "crash_timestamp"=>1513193008508181515, "version"=>"26c936e7-4d49-466d-afa6-1f09a5454709"}
+   2017-12-13T11:23:29.68-0800 [CELL/0] OUT Successfully destroyed container
+   2017-12-13T11:24:24.85-0800 [CELL/0] OUT Creating container
+   2017-12-13T11:24:25.20-0800 [CELL/0] OUT Successfully created container
+   2017-12-13T11:24:30.62-0800 [CELL/0] OUT Starting health monitoring of container
+   [31m2017-12-13T11:24:30.72-0800 [APP/PROC/WEB/0] ERR Cannot calculate JVM memory configuration: There is insufficient memory remaining for heap. Memory limit 512M is less than allocated memory 627047K (-XX:ReservedCodeCacheSize=240M, -XX:MaxDirectMemorySize=10M, -XX:MaxMetaspaceSize=115047K, -Xss1M * 250 threads)[0m
+   2017-12-13T11:24:30.72-0800 [APP/PROC/WEB/0] OUT Exit status 1
+   2017-12-13T11:24:30.74-0800 [CELL/0] OUT Exit status 0
+   2017-12-13T11:24:30.75-0800 [CELL/0] OUT Destroying container
+   2017-12-13T11:24:30.76-0800 [API/0] OUT Process has crashed with type: "web"
+   2017-12-13T11:24:30.76-0800 [API/0] OUT App instance exited with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>4, "crash_timestamp"=>1513193070734673849, "version"=>"26c936e7-4d49-466d-afa6-1f09a5454709"}
+   2017-12-13T11:24:31.84-0800 [CELL/0] OUT Successfully destroyed container
+   2017-12-13T11:26:02.59-0800 [API/0] OUT Process has crashed with type: "web"
+   2017-12-13T11:26:02.60-0800 [API/0] OUT App instance exited with guid 2e238b40-d17b-4856-9db8-8015d1eaaf84 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>5, "crash_timestamp"=>1513193162565804392, "version"=>"26c936e7-4d49-466d-afa6-1f09a5454709"}
