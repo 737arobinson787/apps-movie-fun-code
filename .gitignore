@@ -4,6 +4,8 @@ build
 *.iml
 *.ipr
 *.iws
+*.war
+*.jar
 .DS_Store
 .env
 *.application.yml
