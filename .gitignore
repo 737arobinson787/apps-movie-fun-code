@@ -1,5 +1,11 @@
-*.iml
-target
-classes
+.gradle
 build
 .idea
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.env
+*.application.yml
+target/
+.idea/
